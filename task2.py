@@ -14,7 +14,7 @@ ports_to_check = [21, 22, 23, 25, 53, 80, 110, 143, 443, 445, 3389, 5900]
 
 ip = input("Введите IP-адрес: ")
 
-print(f"\nСканирование {ip}...\n")
+print(f"Сканирование {ip}...")
 
 for port in ports_to_check:
     if check_port(ip, port):
